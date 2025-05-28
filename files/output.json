@@ -1,18 +1,674 @@
 {
-  "java" : {
-    "count" : 5,
-    "lines" : [ 2, 3 ]
+  "it" : {
+    "count" : 6,
+    "lines" : [ 17, 3, 5, 21, 25, 13 ]
   },
-  "hello" : {
-    "count" : 2,
+  "city" : {
+    "count" : 5,
+    "lines" : [ 1, 19, 5, 21 ]
+  },
+  "but" : {
+    "count" : 4,
+    "lines" : [ 17, 5, 11, 15 ]
+  },
+  "by" : {
+    "count" : 4,
+    "lines" : [ 17, 25, 15 ]
+  },
+  "on" : {
+    "count" : 3,
+    "lines" : [ 7, 13, 15 ]
+  },
+  "they" : {
+    "count" : 3,
+    "lines" : [ 3, 5, 7 ]
+  },
+  "with" : {
+    "count" : 3,
     "lines" : [ 1, 3 ]
   },
-  "world" : {
+  "breath" : {
     "count" : 2,
-    "lines" : [ 1, 2 ]
+    "lines" : [ 25 ]
+  },
+  "brick" : {
+    "count" : 2,
+    "lines" : [ 25 ]
+  },
+  "day" : {
+    "count" : 2,
+    "lines" : [ 9 ]
+  },
+  "heartbeat" : {
+    "count" : 2,
+    "lines" : [ 17, 19 ]
+  },
+  "never" : {
+    "count" : 2,
+    "lines" : [ 5, 15 ]
+  },
+  "people" : {
+    "count" : 2,
+    "lines" : [ 1, 7 ]
+  },
+  "pulses" : {
+    "count" : 2,
+    "lines" : [ 21 ]
+  },
+  "same" : {
+    "count" : 2,
+    "lines" : [ 7, 15 ]
+  },
+  "stories" : {
+    "count" : 2,
+    "lines" : [ 13, 15 ]
+  },
+  "through" : {
+    "count" : 2,
+    "lines" : [ 1, 7 ]
+  },
+  "above" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "after" : {
+    "count" : 1,
+    "lines" : [ 9 ]
+  },
+  "again" : {
+    "count" : 1,
+    "lines" : [ 21 ]
+  },
+  "all" : {
+    "count" : 1,
+    "lines" : [ 13 ]
+  },
+  "always" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "amidst" : {
+    "count" : 1,
+    "lines" : [ 13 ]
+  },
+  "apartments" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "artists" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "as" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "at" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "back" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "baristas" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "barked" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "bathed" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "became" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "beneath" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "birds" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "bookstores" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "bread" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "brighter" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "briskly" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "cafe" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "called" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "calm" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "came" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "carried" : {
+    "count" : 1,
+    "lines" : [ 13 ]
+  },
+  "cars" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "casting" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "chance" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "changed" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "chatterthere" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "children" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "circled" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "closelybeneath" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "continued" : {
+    "count" : 1,
+    "lines" : [ 9 ]
+  },
+  "conversations" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "cracks" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "cycle" : {
+    "count" : 1,
+    "lines" : [ 9 ]
+  },
+  "delivery" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "distracted" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "does" : {
+    "count" : 1,
+    "lines" : [ 5 ]
+  },
+  "dogs" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "dreamendlessly" : {
+    "count" : 1,
+    "lines" : [ 5 ]
+  },
+  "dropped" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "ease" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "easy" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "echoed" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "essence" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "evenings" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "every" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "exhaust" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "flickered" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "floated" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "footsteps" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "forward" : {
+    "count" : 1,
+    "lines" : [ 27 ]
+  },
+  "found" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "fresh" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "friends" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "from" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "glows" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "goes" : {
+    "count" : 1,
+    "lines" : [ 25 ]
+  },
+  "golden" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "heart" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "highrise" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "horns" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "if" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "indifference" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "its" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "jazz" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "lattes" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "laughed" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "letters" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "life" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "light" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "lights" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "like" : {
+    "count" : 1,
+    "lines" : [ 23 ]
+  },
+  "listen" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "love" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "meeting" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "mingled" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "miraculous" : {
+    "count" : 1,
+    "lines" : [ 9 ]
+  },
+  "miss" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "moments" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "morning" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "most" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "mundane" : {
+    "count" : 1,
+    "lines" : [ 9 ]
+  },
+  "music" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "night" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "noise" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "now" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "old" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "onto" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "open" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "ordinary" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "out" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "over" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "pauses" : {
+    "count" : 1,
+    "lines" : [ 21 ]
+  },
+  "pavement" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "persistent" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "pigeons" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "played" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "poetry" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "poured" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "practiced" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "prices" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "quieter" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "recognizing" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "remained" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "restlessly" : {
+    "count" : 1,
+    "lines" : [ 5 ]
+  },
+  "rhythm" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "said" : {
+    "count" : 1,
+    "lines" : [ 5 ]
+  },
+  "scent" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "screens" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "secondfloor" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "shifted" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "sidewalks" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "sketching" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "skipped" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "skyline" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "skylines" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "sleeps" : {
+    "count" : 1,
+    "lines" : [ 5 ]
+  },
+  "song" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "speaking" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "spins" : {
+    "count" : 1,
+    "lines" : [ 27 ]
+  },
+  "still" : {
+    "count" : 1,
+    "lines" : [ 25 ]
+  },
+  "strangers" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "streets" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "strolled" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "subways" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "taking" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "technology" : {
+    "count" : 1,
+    "lines" : [ 11 ]
+  },
+  "that" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "their" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "these" : {
+    "count" : 1,
+    "lines" : [ 3 ]
   },
   "this" : {
     "count" : 1,
-    "lines" : [ 2 ]
+    "lines" : [ 9 ]
+  },
+  "to" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "towering" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "train" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "trucks" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "us" : {
+    "count" : 1,
+    "lines" : [ 23 ]
+  },
+  "vendors" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "walked" : {
+    "count" : 1,
+    "lines" : [ 1 ]
+  },
+  "was" : {
+    "count" : 1,
+    "lines" : [ 3 ]
+  },
+  "way" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "wearier" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "when" : {
+    "count" : 1,
+    "lines" : [ 17 ]
+  },
+  "windows" : {
+    "count" : 1,
+    "lines" : [ 7 ]
+  },
+  "workers" : {
+    "count" : 1,
+    "lines" : [ 15 ]
+  },
+  "world" : {
+    "count" : 1,
+    "lines" : [ 27 ]
+  },
+  "yet" : {
+    "count" : 1,
+    "lines" : [ 9 ]
+  },
+  "you" : {
+    "count" : 1,
+    "lines" : [ 17 ]
   }
 }

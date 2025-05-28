@@ -31,7 +31,7 @@ public class UtilClass {
     }
 
     public static <T> void saveToCSV(Map<String, T> data, String pathToOutput, String[] fieldNames) {
-        String path = Paths.get(pathToOutput, "output.json").toString();
+        String path = Paths.get(pathToOutput, "output.cvs").toString();
         logger.info("Started writing CSV to: {}", path);
         try (CSVWriter writer = new CSVWriter(new FileWriter(path))) {
             String[] header = new String[fieldNames.length + 1];

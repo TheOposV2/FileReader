@@ -12,20 +12,16 @@ public class FileReader {
 
     private static final Logger logger = LoggerFactory.getLogger(FileReader.class);
 
-    public static void main(String[] args) {
-
-        Path configPath = Paths.get("files\\config.txt");
-        Path outputPath = Paths.get("files\\output.txt");
-        Path inputPath = Paths.get("files\\input.txt");
+    public static void runAnalysis(Path inputPath, Path configPath, Path outputPath) {
 
        // File input = new File(".\\src\\input.txt");
-       File output = new File(outputPath.toUri());
+       File outputFile = new File(outputPath.toUri());
        // File config = new File(".\\src\\config.txt");
         try(
 
                 //    BufferedReader reader = new BufferedReader(new java.io.FileReader(input));
                 //    BufferedReader configReader = new BufferedReader(new java.io.FileReader(config));
-            BufferedWriter writer = new BufferedWriter(new FileWriter(output))
+            BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))
 
         ) {
             //Declaration of variables
@@ -121,4 +117,7 @@ public class FileReader {
         }
 
     }
+
+
+
 }
