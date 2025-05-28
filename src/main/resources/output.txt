@@ -1,0 +1,12 @@
+
+Most occurred word is: java used : 5
+java: 5
+hello: 2
+world: 2
+this: 1
+
+Word line occurrences:
+java: [2, 3]
+hello: [1, 3]
+world: [1, 2]
+this: [2]
