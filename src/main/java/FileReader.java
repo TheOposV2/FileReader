@@ -1,12 +1,11 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 public class FileReader {
 
@@ -14,17 +13,10 @@ public class FileReader {
 
     public static void runAnalysis(Path inputPath, Path configPath, Path outputPath) {
 
-       // File input = new File(".\\src\\input.txt");
        File outputFile = new File(outputPath.toUri());
-       // File config = new File(".\\src\\config.txt");
         try(
-
-                //    BufferedReader reader = new BufferedReader(new java.io.FileReader(input));
-                //    BufferedReader configReader = new BufferedReader(new java.io.FileReader(config));
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))
-
         ) {
-            //Declaration of variables
             List<String> wordsToFilterList;
             List<String> lines;
             Map<String, WordInfo> wordInformation;
@@ -35,33 +27,28 @@ public class FileReader {
 
             logger.info("Reading config file: {}", configPath);
             wordsToFilterList = Files.readAllLines(configPath);
-            // while ((newLine = configReader.readLine()) != null){
-            //     wordsToFilterList.add(newLine);
-            // }
 
             wordsToFilter = wordsToFilterList.stream().flatMap(str -> Arrays.stream(str.split("\\s+")))
-                    .map(str -> str.replaceAll("[^a-zA-Z]", ""))
+                    .map(str -> str.replaceAll("^[a-zA-Z-]+$", ""))
                     .map(String::toLowerCase)
                     .filter(str -> !str.isEmpty())
                     .collect(Collectors.toSet());
 
             logger.info("Reading input file: {}", inputPath);
             lines = Files.readAllLines(inputPath);
-            //while ((newLine = reader.readLine()) != null){
-            //    lines.add(newLine);
-            //}
+
             filteredWords = lines.stream().flatMap(str -> Arrays.stream(str.split("\\s+")))
-                    .map(str -> str.replaceAll("[^a-zA-Z]", ""))
+                    .map(str -> str.replaceAll("^[a-zA-Z-]+$", ""))
                     .map(String::toLowerCase)
                     .filter(str -> !str.isEmpty())
                     .toList();
             logger.debug("Filtered words: {}", filteredWords);
 
             wordInformation = filteredWords.stream().filter(str -> !wordsToFilter.contains(str))
-                    .collect(Collectors.groupingBy(s -> s, Collectors.collectingAndThen(Collectors.counting()
-                            ,Long::intValue)))
+                    .collect(Collectors.groupingBy(s -> s , Collectors.collectingAndThen(Collectors.counting()
+                            , Long::intValue)))
                     .entrySet().stream()
-                    .sorted(((s1,s2)->{
+                    .sorted(((s1, s2) -> {
                         int whichIsFirst = s2.getValue().compareTo(s1.getValue());
                         return whichIsFirst != 0 ? whichIsFirst : s1.getKey().compareTo(s2.getKey());
                     }))
@@ -94,11 +81,11 @@ public class FileReader {
             }
             writer.newLine();
             writer.write("Most occurred word is: " + mostFrequentWord
-                    +" used : " + wordInformation.get(mostFrequentWord).getCount()  );
+                    + " used : " + wordInformation.get(mostFrequentWord).getCount()  );
             writer.newLine();
 
             for(Map.Entry<String, WordInfo> entry : wordInformation.entrySet()){
-                writer.write(entry.getKey() +": "+entry.getValue().getCount());
+                writer.write(entry.getKey() + ": " + entry.getValue().getCount());
                 writer.newLine();
             }
             writer.newLine();

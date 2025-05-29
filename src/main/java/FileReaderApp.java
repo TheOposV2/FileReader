@@ -1,5 +1,4 @@
 import picocli.CommandLine;
-
 import java.io.File;
 import java.util.concurrent.Callable;
 
@@ -26,13 +25,12 @@ public class FileReaderApp implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        // Validate files
+
         if (!input.exists() || !config.exists()) {
             System.out.println("Input or config file does not exist.");
             return 1;
         }
 
-        // Run the logic
         FileReader.runAnalysis(input.toPath(), config.toPath(), outputDir.toPath());
         return 0;
     }
